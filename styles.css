@@ -1,0 +1,28 @@
+
+/*#1*/
+/*Change the colour of the text in the p tag.*/
+p {
+  color: grey;
+}
+
+/*#2*/
+/*Make it so the colour of the links changes when you hover your mouse over them.*/
+a:hover {
+  text-decoration: none;
+  color: yellow;
+}
+
+/*#3*/
+/*Enlarge the "Hello" heading.*/
+h1 {
+  font-size: 3 em;
+  font-weight: bolder;
+}
+
+/*#4*/
+/*Set the lis containing the bear images to display: inline-block; (while leaving the lis in the nav as is).*/
+.bears li {
+  display: inline-block;
+}
+
+/*or possibly body < ul < li*/
